@@ -2,18 +2,32 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .featuredItem {
   flex: 1;
   margin: 0px 20px;
+  flex-wrap: wrap;
   padding: 30px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  border-left: blue;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#featuredItemone {
+  border-left: 8px solid blue;
+}
+#featuredItemtwo {
+  border-left: 8px solid green;
+}
+#featuredItemthree {
+  border-left: 8px solid rgb(54, 185, 204);
+}
+#featuredItemfour {
+  border-left: 8px solid rgb(247, 198, 73);
 }
 
 .featureTitle {
@@ -49,4 +63,37 @@
 .featuredSub {
   font-size: 15px;
   color: grey;
+}
+.featureTitleMonthly {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Monthly:hover {
+  background-color: rgb(222, 240, 246);
+}
+.Annual:hover {
+  background-color: rgb(190, 241, 196);
+}
+.Tasks:hover {
+  background-color: rgb(174, 238, 248);
+}
+.Pending:hover {
+  background-color: rgb(245, 227, 181);
+}
+
+.featureTitleAnnual {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+.featureTitleTasks {
+  color: rgb(54, 185, 204);
+  font-weight: bold;
+  font-size: 20px;
+}
+.featureTitlePending {
+  color: rgb(247, 198, 73);
+  font-weight: bold;
+  font-size: 20px;
 }

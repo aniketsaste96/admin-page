@@ -1,9 +1,10 @@
 .sidebar {
-  flex: 1;
-  height: calc(100vh-50px);
+  /* flex: 1; */
+  height: 100%;
   background-color: rgb(78, 115, 223);
   position: sticky;
   top: 50px;
+  width: 300px;
 }
 
 .sidebarwrapper {
@@ -17,7 +18,7 @@
 }
 
 .sidebarTitle {
-  font-size: 13px;
+  /* font-size: 13px; */
   color: azure;
 }
 

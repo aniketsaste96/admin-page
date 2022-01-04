@@ -5,6 +5,10 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 2px solid black;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .topbarwrapper {
