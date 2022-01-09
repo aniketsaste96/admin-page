@@ -31,7 +31,10 @@ export default function Sidebar() {
               <LineStyleIcon className="sidebarIcon" />
               Home
             </li>
-            <li className="sidebarListItem">
+            <li
+              className="sidebarListItem"
+              onClick={() => history.push("./Home")}
+            >
               <TimelineIcon className="sidebarIcon" />
               Analytics
             </li>
@@ -42,22 +45,22 @@ export default function Sidebar() {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Quick Menu</h3>
+          <h3 className="sidebarTitle">Products</h3>
           <hr />
           <ul className="sidebarList">
             <li
               className="sidebarListItem active"
-              onClick={() => history.push("./Users")}
+              onClick={() => history.push("/Product")}
             >
-              <PeopleIcon className="sidebarIcon" />
-              Users
+              <Inventory2Icon className="sidebarIcon " />
+              Products
             </li>
             <li
               className="sidebarListItem"
-              onClick={() => history.push("./Product")}
+              onClick={() => history.push("/add")}
             >
-              <Inventory2Icon className="sidebarIcon" />
-              Products
+              <Inventory2Icon className="sidebarIcon " />
+              Add Products
             </li>
             <li className="sidebarListItem">
               <MonetizationOnIcon className="sidebarIcon" />
@@ -70,10 +73,18 @@ export default function Sidebar() {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Notification</h3>
+          <h3 className="sidebarTitle">Users</h3>
           <hr />
+
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
+            <li
+              className="sidebarListItem active"
+              onClick={() => history.push("./Users")}
+            >
+              <PeopleIcon className="sidebarIcon" />
+              Users
+            </li>
+            <li className="sidebarListItem ">
               <MailOutlineIcon className="sidebarIcon" />
               Mail
             </li>
@@ -81,27 +92,9 @@ export default function Sidebar() {
               <FeedbackIcon className="sidebarIcon" />
               Feedback
             </li>
-            <li className="sidebarListItem">
-              <ChatBubbleOutlineIcon className="sidebarIcon" />
+            <li className="sidebarListItem ">
+              <ChatBubbleOutlineIcon className="sidebarIcon " />
               Message
-            </li>
-          </ul>
-        </div>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Staff</h3>
-          <hr />
-          <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <ManageAccountsIcon className="sidebarIcon" />
-              Manage
-            </li>
-            <li className="sidebarListItem">
-              <TimelineIcon className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <ReportGmailerrorredIcon className="sidebarIcon" />
-              Reports
             </li>
           </ul>
         </div>

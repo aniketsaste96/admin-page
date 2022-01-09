@@ -1,0 +1,35 @@
+.productItemsView {
+  margin-left: 34%;
+  width: 400px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: roboto, arial, helvetica, sans-ser;
+}
+
+p,
+img {
+  padding: 10px;
+  margin: auto;
+}
+
+.category {
+  background-color: black;
+  color: white;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+}
+img {
+  margin-left: 20px;
+}
+
+.productPrice {
+  font-weight: bold;
+  font-size: 20px;
+}

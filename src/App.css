@@ -1,5 +1,12 @@
 .container {
   display: flex;
-  margin-top: 10px;
-  margin-left: -12px;
+  /* margin: 0; */
+}
+
+.others {
+  flex: 6;
+}
+
+* {
+  font-family: "Roboto";
 }

@@ -11,3 +11,14 @@ input {
   margin-top: 10px;
   width: 400px;
 }
+
+.tableForm {
+  border: 2px solid black;
+}
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
