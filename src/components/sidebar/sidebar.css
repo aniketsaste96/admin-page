@@ -1,5 +1,5 @@
 .sidebar {
-  flex: 1;
+  /* flex: 1; */
   height: 100vh;
   background-color: rgb(78, 115, 223);
   /* height: 100vh; */
@@ -11,6 +11,7 @@
   overflow: visible !important;
   margin-left: -12px;
   /* z-index: 0; */
+  /* height: calc(100vh-50px); */
 }
 
 .sidebarwrapper {
@@ -49,10 +50,4 @@
 .sidebarIcon {
   margin-right: 5px;
   font-size: 20px !important;
-}
-
-@media (min-width: 100%) {
-  .container {
-    max-width: 100%;
-  }
 }

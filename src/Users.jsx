@@ -88,12 +88,12 @@ const Users = () => {
               <Grid item xs={11} sm={11}>
                 <TextField
                   onChange={(e) => ontextFieldChange(e)}
-                  autoComplete="stuname"
-                  name="stuname"
+                  autoComplete="name"
+                  name="name"
                   varient="outlined"
                   required
                   fullWidth
-                  id="stuname"
+                  id="name"
                   label="Name"
                   autoFocus
                 />

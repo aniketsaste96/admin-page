@@ -76,7 +76,9 @@ export function Product() {
                 <span className="priceDollar">$</span>{" "}
                 <span className="priceNum">{item.price}</span>
               </p>
-
+              <Button color="success" variant="contained">
+                Buy Now
+              </Button>
               <Tooltip title="View">
                 <IconButton>
                   <Link to={`/view/${item.id}`}>

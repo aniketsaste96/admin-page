@@ -20,8 +20,10 @@ function App() {
     <div>
       <Topbar />
       <div className="container">
+        <div className="sidebarflex">
+          <Sidebar />
+        </div>
 
-        <Sidebar />
         <div className="others">
           <Switch>
             <Route exact path="/">
