@@ -53,7 +53,7 @@ const AddProduct = () => {
         }
     }
 
-    // return Home if status is true
+    // return Product if status is true
     if (status) {
         history.push("/Product")
     }
