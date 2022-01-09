@@ -12,6 +12,7 @@ const AddProduct = () => {
         title: "",
         image: "",
         price: "",
+        category: "",
         category: ""
 
 
@@ -98,6 +99,15 @@ const AddProduct = () => {
                             autoComplete="category" name="category"
                             varient="outlined" required fullWidth id="category"
                             label="category" autoFocus />
+
+                    </Grid>
+                    <Grid item xs={4} sm={4}>
+                        <TextField
+
+                            onChange={(e) => ontextFieldChange(e)}
+                            autoComplete="description" name="description"
+                            varient="outlined" required fullWidth id="description"
+                            label="Add description" autoFocus />
 
                     </Grid>
 

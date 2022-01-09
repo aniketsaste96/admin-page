@@ -13,7 +13,8 @@ const EditProduct = () => {
         title: "",
         image: "",
         price: "",
-        category: ""
+        category: "",
+        description: ""
 
 
     });
@@ -109,6 +110,16 @@ const EditProduct = () => {
                             varient="outlined" required fullWidth id="category"
                             label="category" autoFocus
                             value={product.category} />
+
+                    </Grid>
+                    <Grid item xs={6} sm={6}>
+                        <TextField
+                            //  onChnage={ontextFieldChange} == no cz it calles emmediatly
+                            onChange={(e) => ontextFieldChange(e)}
+                            autoComplete="description" name="description"
+                            varient="outlined" required fullWidth id="description"
+                            label="description" autoFocus
+                            value={product.description} />
 
                     </Grid>
 
