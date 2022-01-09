@@ -29,18 +29,14 @@ export default function Sidebar() {
               onClick={() => history.push("./Home")}
             >
               <LineStyleIcon className="sidebarIcon" />
-              Home
+              Home (Active)
             </li>
             <li
               className="sidebarListItem"
               onClick={() => history.push("./Home")}
             >
               <TimelineIcon className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <TrendingUpIcon className="sidebarIcon" />
-              Sales
+              Analytics (Active)
             </li>
           </ul>
         </div>
@@ -53,14 +49,14 @@ export default function Sidebar() {
               onClick={() => history.push("/Product")}
             >
               <Inventory2Icon className="sidebarIcon " />
-              Products
+              Products (Active)
             </li>
             <li
               className="sidebarListItem"
               onClick={() => history.push("/add")}
             >
               <Inventory2Icon className="sidebarIcon " />
-              Add Products
+              Add Products (Active)
             </li>
             <li className="sidebarListItem">
               <MonetizationOnIcon className="sidebarIcon" />
@@ -82,7 +78,7 @@ export default function Sidebar() {
               onClick={() => history.push("./Users")}
             >
               <PeopleIcon className="sidebarIcon" />
-              Users
+              Users (Active)
             </li>
             <li className="sidebarListItem ">
               <MailOutlineIcon className="sidebarIcon" />

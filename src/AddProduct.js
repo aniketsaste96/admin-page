@@ -58,7 +58,7 @@ const AddProduct = () => {
     }
     return (
         <div>
-            <Box textAlign="center" m={2} p={2} mb={2} >
+            <Box textAlign="center"  >
                 <Typography variant="h4"> ADD Product</Typography>
             </Box>
             <form noValidate >
@@ -82,7 +82,7 @@ const AddProduct = () => {
                             label="image" autoFocus />
 
                     </Grid>
-                    <Grid item xs={6} sm={6}>
+                    <Grid item xs={4} sm={4}>
                         <TextField
 
                             onChange={(e) => ontextFieldChange(e)}
@@ -103,7 +103,7 @@ const AddProduct = () => {
 
 
                 </Grid>
-                <Box m={3}>
+                <Box m={8}>
                     <Button type="submit" variant="contained" color="primary" fullWidth onClick={(e) => onFormSubmit(e)}>Add Product</Button>
                 </Box>
 

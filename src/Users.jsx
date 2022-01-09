@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     color: "white",
   },
   addStuColor: {
-    backgroundColor: green[400],
+    backgroundColor: "skyblue",
     color: "white",
   },
   stuListColor: {

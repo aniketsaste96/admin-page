@@ -41,6 +41,10 @@ export default function Chart({ title, data, dataKey, grid }) {
         </div>
 
         <div className="piechart">
+          <br />
+          <br />
+          <br />
+          <h3 className="Revenuesrc">Revenue Source</h3>
           <PieChart width={530} height={350}>
             <Pie
               data={PieChartData}
@@ -64,7 +68,6 @@ export default function Chart({ title, data, dataKey, grid }) {
             />
             <Tooltip />
           </PieChart>
-          <h3>Revenue Source</h3>
         </div>
       </div>
       <div className="progressBar">
